@@ -1,0 +1,22 @@
+{
+  "name": "node-dmx",
+  "version": "0.0.1",
+  "description": "control software for my RGBAW-UV lights",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/acceptance",
+    "start": "node node-dmx.js"
+  },
+  "repository": "git://github.com/rltvty/node-dmx.git",
+  "keywords": [],
+  "dependencies": {
+    "express": "4.13.x",
+    "body-parser": "1.15.x",
+    "request": "2.69.x"
+  },
+  "devDependencies": {
+    "mocha": "2.3.x",
+    "should": "8.1.x"
+  },
+  "author": "Eric Pinzur",
+  "license": "MIT"
+}
